@@ -1,2 +1,49 @@
 ---
 ---
+body {
+	background: #808080;
+	width: 85%;
+	max-width: 1265px;
+	margin: 0px auto;
+	font-family: Helvetica, sans-serif;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	flex: 1;
+}
+
+h1 {
+	color: white;
+	display: inline-block;
+	margin-right: 100px;
+}
+
+header nav {
+	display: inline-block;
+}
+
+header ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+header li {
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+header a:visited {
+	color: white;
+}
+
+
+
