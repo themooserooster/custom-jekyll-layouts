@@ -1,5 +1,5 @@
-custom-jekyll-layouts-part1
-===========================
+Custom Jekyll Layouts - Part 1
+==============================
 
 Lesson plan for creating custom layouts with Jekyll
 
@@ -16,22 +16,22 @@ tags we'll use:
     <p>
 ```
 
-Today we're going to writing a buch of stuff that looks like this:    
-    
+Today we're going to writing a buch of stuff that looks like this:
+
 ```html
     <someTagNameHere somevalue="something">Blah, blah, blah...</someTagNameHere>
 ```
 
 These are _HTML Elements_
-    
+
 Anatomy of an HTML element:
 
 ```html
     <a href="index.html" class="nav-link">Home</a>
 ```
 HTML elements are defined by special sequences of text called _tags_.
-Most HTML elements have an _opening tag_ and a _closing tag_. Opening tags mark 
-where an element begins, and closing tags mark where an element ends. 
+Most HTML elements have an _opening tag_ and a _closing tag_. Opening tags mark
+where an element begins, and closing tags mark where an element ends.
 
 Elements come in _types_ which are defined by the opening and closing tags.
 In our example above, in simplest form, our element would look like:
@@ -40,11 +40,11 @@ In our example above, in simplest form, our element would look like:
     <a></a>
 ```
 
-<code>&lt;a&gt;</code> is our opening tag and <code>&lt;/a&gt;</code> is our 
+<code>&lt;a&gt;</code> is our opening tag and <code>&lt;/a&gt;</code> is our
 closing tag.
 
 The element's type is 'a'. Just so you know, 'a' actually stands for
-'anchor', so it's an anchor element. Anchor element are used to create _links_ 
+'anchor', so it's an anchor element. Anchor element are used to create _links_
 to other pages, or other parts of the same page.
 
 'href="index.html"' and 'class="nav-link"' parts are _attributes_. The go inside the opening tag and are
@@ -80,11 +80,9 @@ TODOS:
         * register with Jekyll by including "---" lines
         * put link tag in head of index.html
     * Make our footer always stay on the bottom of the page
-        
+
 
 Links:
-    
+
     <a href="http://html5doctor.com/nav-element/">Where and when to use the 'nav' element</a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN HTML Element reference<a/>
-        
-    
